@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="jquery-3.6.0.min.js" ></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body id="main">
+    <section>
+        <div class="ais"  data-aos="fade-down"></div>
+        <br>
+        
+       
+    <!-- <center> -->
+        <div class="ais">
+    <H1>Registration fORM</H1>
+    <br>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque magnam accusamus, tempore corporis velit debitis nam aliquam recusandae commodi, ea sequi a nostrum sed eaque! Exercitationem odit nisi at cum voluptate dolore voluptatibus repudiandae minima nihil quam asperiores temporibus, magni molestias? Pariatur, dignissimos neque! Voluptatem nulla quod sunt numquam quis dolore temporibus mollitia, debitis ullam aliquam voluptates dolorem ex beatae ducimus! Illo tenetur voluptates eum qui at ipsum culpa iste blanditiis quidem accusantium fugit, sapiente ducimus incidunt aliquid. Reiciendis nostrum magnam, distinctio ut accusamus corporis dolore adipisci eos quam labore temporibus illo velit earum praesentium nisi vitae similique. Maxime, accusamus!
+    </p>
+   <form action="">
+       <div id="sale">
+       <label> Name</label>
+      <input type="text" id="enter" placeholder="enter your name"> 
+     
+    <label> Last Name</label>
+      <input type="text"id="lname" placeholder="enter your Last name"> 
+      
+       <label> F.Name</label>
+       <input type="text"id="fname" placeholder="enter your F.Name">
+     
+     
+       <label>E-Mail</label>
+       <input type="email"id="i_email" placeholder="enter your E-Mail">
+       
+       <label>Password</label>
+       <input type="password"id="pass" placeholder="enter your Password">
+       
+       <label>Age</label>
+       <input type="number"id="aje" placeholder="enter your Age">
+      
+       <label>Phone Number</label>
+       <input type="number"id="Phone" placeholder="enter your Number">
+       
+       <label>Gender</label>
+      
+       <label>Male</label>
+       <input id="gender" type="radio">
+
+       <label>Female</label>
+       <input id="gender" type="radio">
+     
+       <input  id="io" type="reset">
+       <input id="1234" type="submit" value="Button">
+    </div>
+   </form>
+</div>
+<!-- </center> -->
+
+<script>
+
+    $(document).ready(function(){
+        $('#1234').click(function(){
+            var name = $('#enter').val();
+            alert(name)
+            var lname = $('#lname').val();
+            alert(lname)
+            var fname = $('#fname').val();
+            alert(fname)
+            var i_email = $('#i_email').val();
+            alert(i_email)
+            var password = $('#pass').val();
+            alert(password)
+            var Age = $('#aje').val();
+            alert(Age)
+            var phone = $('#Phone').val();
+            alert(phone)
+            var gender = $('#gender').val();
+            alert(gender)
+            
+            alert('form sucesfully')
+
+            
+        })
+    })
+
+
+
+
+
+
+</script>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
